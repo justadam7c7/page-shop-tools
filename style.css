@@ -50,8 +50,6 @@ section h2::after {
     }
 }
 
-/* header */
-
 header {
     position: fixed;
     top: 0;
@@ -125,10 +123,12 @@ header button.mobile-menu-toggle {
     header .header-wrapper {
         padding: 40px 0;
     }
+
     header.menu-visible nav {
         height: auto;
         max-height: initial;
     }
+
     header nav {
         position: static;
         display: block;
@@ -136,22 +136,24 @@ header button.mobile-menu-toggle {
         height: auto;
         max-height: initial;
     }
+
     header nav ul {
         flex-direction: row;
     }
+
     header nav ul li {
         margin-left: 45px;
         padding: 0;
     }
+
     header nav ul li:last-child {
         margin-left: 90px;
     }
+
     header button.mobile-menu-toggle {
         display: none;
     }
 }
-
-/* banner */
 
 section.banner {
     background-image: url('assets/images/foto_banner.jpg');
@@ -209,10 +211,12 @@ section.banner h3 {
     section.banner {
         padding: 100px 50px;
     }
+
     section.banner h1 {
         font-size: 60px;
         line-height: 67px;
     }
+
     section.banner h3 {
         font-size: 32px;
         line-height: 40px;
@@ -223,10 +227,12 @@ section.banner h3 {
     section.banner {
         padding: 50px 30px;
     }
+
     section.banner h1 {
         font-size: 35px;
         line-height: 40px;
     }
+
     section.banner h3 {
         font-size: 24px;
         line-height: 33px;
@@ -253,7 +259,7 @@ section.products .products-slider-wrapper .products-wrapper {
 section.products .products-slider-wrapper .products-wrapper .product-item {
     width: 280px;
     text-align: center;
-    margin: 20px 55px 0px 55px;
+    margin: 20px 55px 0 55px;
     padding: 0;
     transition: color .2s ease;
 }
@@ -350,13 +356,12 @@ img.right-btn {
         width: 100%;
         margin: 30px 0;
     }
+
     section.products .products-wrapper .product-item p {
         max-width: 300px;
         margin: 0 auto;
     }
 }
-
-/* article */
 
 section.articles article {
     margin: 0 -15px;
@@ -391,6 +396,7 @@ section.articles article .content p {
         margin: 0;
         font-size: 32px;
     }
+
     section.articles article .content p {
         font-size: 21px;
         line-height: 35px;
@@ -401,23 +407,25 @@ section.articles article .content p {
     section.articles article {
         flex-direction: row;
     }
+
     section.articles article:nth-child(2n) {
         flex-direction: row-reverse;
     }
+
     section.articles article .content {
         width: 50%;
         padding: 80px;
     }
+
     section.articles article .content p {
         margin: 60px 0;
     }
+
     section.articles article .img {
         width: 50%;
         height: auto;
     }
 }
-
-/* motto */
 
 div.thought {
     max-width: 1200px;
@@ -485,8 +493,6 @@ div.thought .motto__button:hover {
     allowfullscreen: true;
     aria-hidden: false;
 }
-
-/* footer */
 
 footer.information {
     height: 100%;
