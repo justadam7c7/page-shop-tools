@@ -16,6 +16,7 @@ positionSlides(slides);
 nextButton.addEventListener("click", function () {
     const currentSlide = carousel.querySelector(".active");
     let nextSlide;
+
     if (currentItem === 4) {
         currentItem = 0;
         nextSlide = carousel.querySelector(".firstItem");
@@ -24,6 +25,7 @@ nextButton.addEventListener("click", function () {
     }
 
     const position = nextSlide.style.left;
+    
     carousel.style.transform = `translateX(-${position})`;
     currentSlide.classList.remove('active');
     nextSlide.classList.add('active');
