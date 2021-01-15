@@ -6,6 +6,7 @@ document
     });
 
 let menuItems = document.querySelectorAll("nav ul li a");
+
 for (let i = 0; i < menuItems.length; i++) {
     let link = menuItems[i];
     link.addEventListener("click", function (event) {

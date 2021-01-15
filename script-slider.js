@@ -11,6 +11,7 @@ function positionSlides(slides) {
 }
 
 let currentItem = 0;
+
 positionSlides(slides);
 nextButton.addEventListener("click", function () {
     const currentSlide = carousel.querySelector(".active");
@@ -21,6 +22,7 @@ nextButton.addEventListener("click", function () {
     } else {
         nextSlide = currentSlide.nextElementSibling;
     }
+
     const position = nextSlide.style.left;
     carousel.style.transform = `translateX(-${position})`;
     currentSlide.classList.remove('active');
@@ -32,6 +34,7 @@ previousButton.addEventListener("click", function () {
     const currentSlide = carousel.querySelector(".active");
     const previousSlide = currentSlide.previousElementSibling;
     const position = previousSlide.style.left;
+    
     carousel.style.transform = `translateX(-${position})`;
     currentSlide.classList.remove('active');
     previousSlide.classList.add('active');
