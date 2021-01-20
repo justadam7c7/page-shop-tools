@@ -485,7 +485,7 @@ div.thought .motto__button:hover {
     color: #ff8e02;
 }
 
-.wrap-contact__map iframe {
+.wrap-map iframe {
     width: 100%;
     height: 500px;
     frameborder: 0;
